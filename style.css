@@ -1,0 +1,135 @@
+a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  body {
+    font-size: 15px;
+  }
+  
+  .topnav {
+      display: flex;
+      position: fixed;
+      width: 100%;
+      height: 50px;
+  }
+  
+  .topnav_about {
+    margin-right: auto;
+    padding: 10px;
+  }
+    
+  .topnav_user {
+    margin-left: auto;
+    padding: 10px;
+  }
+  
+  .grid {
+     position: relative;
+      top: 100px;
+      display: grid;
+      width: 100%;
+      grid-template-rows: auto 50px auto auto auto;
+      grid-row-gap: 25px;
+      justify-content: center;
+  }
+  
+  img {
+    display: flex;
+    height: 150px;
+  }
+  
+  .search_bar {
+    display: flex;
+    width: 650px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #d3d3d3;
+    margin-top: 5px;
+  }
+  
+  .search_bar:hover {
+      border: 1px;
+      box-shadow: 0 4px 10px lightgrey;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .google_search {
+    margin-top: 15px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid #d3d3d3;  
+  }
+  
+  .feeling_lucky {
+    margin-top: 15px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid #d3d3d3;
+  }
+  
+  .google_search:hover {
+    background-color: lightgrey;
+  }
+  
+  .feeling_lucky:hover {
+    background-color: lightgrey;
+  }
+  
+  .language {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+  }
+  
+  .location {
+    margin-right: auto;
+    padding-left: 10px;
+  }
+  
+  .location p {
+    color: grey;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  
+  .bottom {
+    display: flex;
+    height: 50px;
+  }
+  
+  .business {
+    margin-right: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  
+  .business a {
+    font-family: sans-serif;
+    margin: 0 5px;
+  }
+  
+  .terms {
+    margin-left: auto;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  
+  .terms a {
+    font-family: sans-serif;
+    margin: 0 5px;
+  }
+  
