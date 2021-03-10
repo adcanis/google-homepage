@@ -1,1 +1,1 @@
-This is the Google-Homepage assignment on the Odin Project as per the foundations course. 
+This is the recreation of the google homepage, as per the Odin Project foundations course. 
